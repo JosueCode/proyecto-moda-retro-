@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moda Retro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos personalizados */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #fff;
+            border-bottom: 1px solid #eee;
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+        }
+
+        .navbar-nav .nav-link {
+            color: #333;
+            font-size: 18px;
+            margin-right: 20px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #00bcd4;
+        }
+
+        .section {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 40px;
+        }
+
+        .section-content {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .image-container {
+            padding: 20px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+
+        .contact-form {
+            margin: 0 auto;
+            max-width: 500px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Moda Retro</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#section-1">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section-2">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section-3">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="section-1" class="section">
+        <div class="container">
+            <h1 class="section-title">Bienvenido a la Moda Retro</h1>
+            <p class="section-content">Revive la moda y el estilo de épocas pasadas.</p>
+        </div>
+    </div>
+
+    <div id="section-2" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Galería</h2>
+            <div class="row">
+                <div class="col-md-4 image-container">
+                    <img src="assets/img/imagen1.jpg" alt="Imagen 1">
+                </div>
+                <div class="col-md-4 image-container">
+                    <img src="assets/img/imagen2.jpg" alt="Imagen 2">
+                </div>
+                <div class="col-md-4 image-container">
+                    <img src="assets/img/imagen3.jpg" alt="Imagen 3">
+                </div>
+                <div class="col-md-4 image-container">
+                    <img src="assets/img/imagen4.jpg" alt="Imagen 4">
+                </div>
+                <div class="col-md-4 image-container">
+                    <img src="assets/img/imagen5.jpg" alt="Imagen 5">
+                </div>
+                <div class="col-md-4 image-container">
+                    <img src="assets/img/imagen6.jpg" alt="Imagen 6">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section-3" class="section">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Correo electrónico">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Mensaje" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
